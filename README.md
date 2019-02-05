@@ -4,13 +4,14 @@ This is a small project using JUnit 5 to test operation methods.
 First, we need to create a new Maven project in Eclipse. Some Eclipse versions need to have downloaded a special package to use Maven. Once created the project, we need to download and the JUnit 5 jars. They can be found in this repo: https://github.com/noopur2507/eclipse-junit5.git. We need to go to Configure Build Path of the project, there we can add new jars to it. After that, we need to modify the pom file, we need to add new dependencies and properties in order to be able to use JUnit 5 framework.
 
 The dependency is:
-
+'''
 <dependency>
 <groupId>org.junit.jupiter</groupId>
 <artifactId>junit-jupiter-api</artifactId>
 <version>5.1.0</version>
 <scope>test</scope>
 </dependency>
+'''
 
 Also, we need to add these properties to the pom file:
 
